@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--I will be creating a web page!-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .button {
+                transition-duration: 0.3s;
+                border: none;
+            }
+            .button:hover {
+                cursor: pointer;
+                background-color: rgb(102, 97, 97);
+            }
+            .sixteen {
+                font-size: 16px;
+                color: white;
+            }
+            .sizing {
+                height: 50px;
+                width: 100px;
+            }
+            .blackbg {
+                background-color: black; 
+            }
+            nav {
+                background-color: black;
+                position: relative;
+                left: 0px;
+                top: 0px;
+                margin: auto;
+                text-align: center;
+                width: 99vw;
+                height: 50px;
+            }
+            .center {
+                text-align: center;
+            }
+            .greencolor {
+                background-color: #06b978;
+                color: black;
+                height: 50px;
+            }
+            .menu {
+                position: absolute;
+                top: 25px;
+                right: 20px;
+                cursor: pointer;
+                background-color: #06b978;
+            }
+            .menu:hover + .demo {
+                display: block;
+                height: 300px;
+                width: 500px;
+                background-color: blue;
+            }
+            .menuline {
+                height: 5px;
+                width: 35px;
+                background-color: black;
+                margin: 6px 0;
+            }
+            .demo {
+                display: none;
+            }
+            .menubutton {
+                background-color: #06b978;
+                border: none;
+                cursor: pointer;
+            }
+            .button:focus {
+                background-color: rgb(102, 97, 97);
+            }
+        </style>
+    </head>
+
+    <body>
+        <script>
+
+        </script>
+        
+        <h1 class='center greencolor'>Chess learning, tips and tricks!</h1>
+
+        <div class='menu'><button class="menubutton"><div class='menuline'></div><div class='menuline'></div><div class='menuline'></div></button><div class='demo'></div></div>
+
+        <nav>
+            <button class='sizing blackbg button'><p class='sixteen'>Home</p></button>
+            <button class='sizing blackbg button'><p class='sixteen'>Chess</p></button>
+            <button class='sizing blackbg button'><p class='sixteen'>Contact us</p></button>
+            <button class='sizing blackbg button'><p class='sixteen'>About</p></button>
+        </nav>
+    </body>
+</html>
